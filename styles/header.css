@@ -1,0 +1,85 @@
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 60px;
+    background-color: rgb(7, 6, 6);
+    color: white;
+
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (max-width : 1000px) {
+    .header-bar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.header-logo{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.header-right-section{
+    display: flex;
+    gap: 30px;
+}
+@media screen and (max-width : 600px) {
+    .header-right-section{
+        gap: 20px;
+    }
+}
+
+.header-right-section a{
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h-r-s-img{
+    width: 30px;
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-r-s-img img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.label{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.header-cart{
+    position: relative;
+}
+
+.cart-pops{
+    position: absolute;
+    width: 18px;
+    color: orange;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    top: 1.6px;
+    left: 9px;
+}

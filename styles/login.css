@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+    background-color: white;
+}
+.login-logo{
+    width: 100px;
+}
+
+.form-input-container{
+    width: 100%;
+    max-width: 348px;
+    border: 0.5px solid #6e6e73;
+    border-radius: 7px;
+    padding: 14px 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.form-title{
+    font-size: xx-large;
+    letter-spacing: 0.5px;
+    padding: 3px;
+}
+
+.form-input-divs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 3px;
+}
+.form-input-label{
+    font-weight: bold;
+    font-size: medium;
+}
+.form-input{
+    width: 100%;
+    border: 1.2px solid grey;
+    padding: 6px 7px;
+    border-radius: 3px;
+}
+.form-input::placeholder{
+    font-size: small;
+}
+
+.login-btn{
+    width: 100%;
+    font-size: small;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+    cursor: pointer;
+}
+.create-btn{
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 0px ;
+    color: black;
+}
+.login-btn:active{
+   transform: translateY(1px)
+}
+
+.form-terms{
+    font-size: small;
+    font-weight: 100;
+    letter-spacing: 0.25px;
+    margin: 10px 0px;
+}
+.form-redirect{
+    font-size: medium;
+    font-weight: 200;
+}
+.form-redirect a{
+    text-decoration: none;
+    color: #0066bf;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .login-logo{
+        width: 80px;
+    }
+    .form-input-container{
+        border: none;
+    }
+}

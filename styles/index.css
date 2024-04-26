@@ -1,0 +1,113 @@
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+@media screen and (max-width: 2000px) {
+    .product-container{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media screen and (max-width: 1700px) {
+    .product-container{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .product-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 900px) {
+    .product-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 500px) {
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+.product-item-div{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.product-img-div{
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-name{
+    height: 40px;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.product-price{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-qty{
+    margin-bottom: 10px;
+}
+.product-qty select{
+    padding: 5px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+.added-pop{
+    display: flex;
+    align-items: center;
+    color: green;
+    gap: 2px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.added-pop-active{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.added-pop img{
+    height: 20px;
+}
+
+.add-cart-btn{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    
+    background-color: black;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.add-cart-btn:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.add-cart-btn:active{
+    background-color: rgba(0, 0, 0, 1);
+}
