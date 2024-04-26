@@ -45,21 +45,21 @@ export const products = [
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png"
   },
-  {
-    id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/products/black-2-slot-toaster.jpg",
-    name: "2 Slot Toaster - Black",
-    rating: {
-      stars: 5,
-      count: 2197
-    },
-    priceCents: 189900,
-    keywords: [
-      "toaster",
-      "kitchen",
-      "appliances"
-    ]
-  },
+  // {
+  //   id: "54e0eccd-8f36-462b-b68a-8182611d9add",
+  //   image: "images/products/black-2-slot-toaster.jpg",
+  //   name: "2 Slot Toaster - Black",
+  //   rating: {
+  //     stars: 5,
+  //     count: 2197
+  //   },
+  //   priceCents: 189900,
+  //   keywords: [
+  //     "toaster",
+  //     "kitchen",
+  //     "appliances"
+  //   ]
+  // },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
     image: "images/products/6-piece-white-dinner-plate-set.jpg",
@@ -89,21 +89,21 @@ export const products = [
       "cookware"
     ]
   },
-  {
-    id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
-    name: "Plain Hooded Fleece Sweatshirt",
-    rating: {
-      stars: 4.5,
-      count: 317
-    },
-    priceCents: 240000,
-    keywords: [
-      "hoodies",
-      "sweaters",
-      "apparel"
-    ]
-  },
+  // {
+  //   id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
+  //   image: "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
+  //   name: "Plain Hooded Fleece Sweatshirt",
+  //   rating: {
+  //     stars: 4.5,
+  //     count: 317
+  //   },
+  //   priceCents: 240000,
+  //   keywords: [
+  //     "hoodies",
+  //     "sweaters",
+  //     "apparel"
+  //   ]
+  // },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
     image: "images/products/luxury-tower-set-6-piece.jpg",
@@ -278,21 +278,21 @@ export const products = [
       "apparel"
     ]
   },
-  {
-    id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
-    image: "images/products/sky-flower-stud-earrings.webp",
-    name: "Sterling Silver Sky Flower Stud Earrings",
-    rating: {
-      stars: 4.5,
-      count: 52
-    },
-    priceCents: 17990,
-    keywords: [
-      "jewelry",
-      "accessories",
-      "womens"
-    ]
-  },
+  // {
+  //   id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
+  //   image: "images/products/sky-flower-stud-earrings.webp",
+  //   name: "Sterling Silver Sky Flower Stud Earrings",
+  //   rating: {
+  //     stars: 4.5,
+  //     count: 52
+  //   },
+  //   priceCents: 17990,
+  //   keywords: [
+  //     "jewelry",
+  //     "accessories",
+  //     "womens"
+  //   ]
+  // },
   {
     id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
     image: "images/products/women-stretch-popover-hoodie-black.jpg",
@@ -377,23 +377,23 @@ export const products = [
       "kitchen"
     ]
   },
-  {
-    id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/products/duvet-cover-set-blue-twin.jpg",
-    name: "Duvet Cover Set with Zipper Closure",
-    rating: {
-      stars: 4,
-      count: 456
-    },
-    priceCents: 23990,
-    keywords: [
-      "bedroom",
-      "bed sheets",
-      "sheets",
-      "covers",
-      "home"
-    ]
-  },
+  // {
+  //   id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
+  //   image: "images/products/duvet-cover-set-blue-twin.jpg",
+  //   name: "Duvet Cover Set with Zipper Closure",
+  //   rating: {
+  //     stars: 4,
+  //     count: 456
+  //   },
+  //   priceCents: 23990,
+  //   keywords: [
+  //     "bedroom",
+  //     "bed sheets",
+  //     "sheets",
+  //     "covers",
+  //     "home"
+  //   ]
+  // },
   {
     id: "d2785924-743d-49b3-8f03-ec258e640503",
     image: "images/products/women-chunky-beanie-gray.webp",
@@ -489,23 +489,23 @@ export const products = [
       "home"
     ]
   },
-  {
-    id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
-    name: "Women's Fleece Jogger Sweatpant",
-    rating: {
-      stars: 4.5,
-      count: 248
-    },
-    priceCents: 24000,
-    keywords: [
-      "pants",
-      "sweatpants",
-      "jogging",
-      "apparel",
-      "womens"
-    ]
-  },
+  // {
+  //   id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
+  //   image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
+  //   name: "Women's Fleece Jogger Sweatpant",
+  //   rating: {
+  //     stars: 4.5,
+  //     count: 248
+  //   },
+  //   priceCents: 24000,
+  //   keywords: [
+  //     "pants",
+  //     "sweatpants",
+  //     "jogging",
+  //     "apparel",
+  //     "womens"
+  //   ]
+  // },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
     image: "images/products/double-elongated-twist-french-wire-earrings.webp",
@@ -626,21 +626,21 @@ export const products = [
       "kitchen"
     ]
   },
-  {
-    id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/kitchen-paper-towels-30-pack.jpg",
-    name: "2-Ply Kitchen Paper Towels - 30 Pack",
-    rating: {
-      stars: 4.5,
-      count: 1045
-    },
-    priceCents: 57990,
-    keywords: [
-      "kitchen",
-      "kitchen towels",
-      "tissues"
-    ]
-  },
+  // {
+  //   id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
+  //   image: "images/products/kitchen-paper-towels-30-pack.jpg",
+  //   name: "2-Ply Kitchen Paper Towels - 30 Pack",
+  //   rating: {
+  //     stars: 4.5,
+  //     count: 1045
+  //   },
+  //   priceCents: 57990,
+  //   keywords: [
+  //     "kitchen",
+  //     "kitchen towels",
+  //     "tissues"
+  //   ]
+  // },
   {
     id: "bc2847e9-5323-403f-b7cf-57fde044a955",
     image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
